@@ -12,7 +12,7 @@ for p in p_o_s:
     win_games = 0
     number_of_throws = 0;
     a_curr = a_prev = 10
-    b_curr = b_prev = 90
+    b_curr = b_prev = 10
     while(a_curr > 0 and b_curr > 0):
       a_curr, b_curr = coinThrow(a_curr, b_curr, p)
       number_of_throws += 1
